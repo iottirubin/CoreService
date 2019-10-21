@@ -11,8 +11,11 @@ import XCTest
 
 class CoreServiceTests: XCTestCase {
 
+    var addressService: AddressService!
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        self.addressService = AddressService()
     }
 
     override func tearDown() {
@@ -22,8 +25,17 @@ class CoreServiceTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        
-        Teste.testePrint()
+        self.addressService.getSearchZipCode("04055-040",
+                                             completion: { address, route, error in
+                                                
+                                                if let _ = error {
+                                                    
+                                                    print(error)
+                                                } else {
+                                                    
+                                                    print(address)
+                                                }
+        })
     }
 
     func testPerformanceExample() {
@@ -32,5 +44,4 @@ class CoreServiceTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

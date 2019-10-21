@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36FCDF1D8FAC98604E64F100 /* Pods_CoreService_CoreServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7350BFCCD6DE534FEABFA75E /* Pods_CoreService_CoreServiceTests.framework */; };
+		5AC39CB512139A0B3B309E35 /* Pods_CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B6B301EAAD17A2F458813E /* Pods_CoreService.framework */; };
+		7776AB60235E264A008E5BF3 /* AddressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776AB5E235E264A008E5BF3 /* AddressService.swift */; };
+		7776AB61235E264A008E5BF3 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776AB5F235E264A008E5BF3 /* AddressModel.swift */; };
+		7776AB6A235E268F008E5BF3 /* OAuth2Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776AB63235E268F008E5BF3 /* OAuth2Handler.swift */; };
+		7776AB6B235E268F008E5BF3 /* AlamofireLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776AB64235E268F008E5BF3 /* AlamofireLogger.swift */; };
+		7776AB6C235E268F008E5BF3 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776AB65235E268F008E5BF3 /* Token.swift */; };
+		7776AB6D235E268F008E5BF3 /* ServiceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776AB66235E268F008E5BF3 /* ServiceBase.swift */; };
+		7776AB6E235E268F008E5BF3 /* ArrayEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776AB67235E268F008E5BF3 /* ArrayEncoding.swift */; };
+		7776AB6F235E268F008E5BF3 /* ServiceBaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776AB68235E268F008E5BF3 /* ServiceBaseErrorModel.swift */; };
+		7776AB70235E268F008E5BF3 /* OAuth2Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776AB69235E268F008E5BF3 /* OAuth2Protocols.swift */; };
 		779F2F15235DF0AB00C859B7 /* CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779F2F0B235DF0AB00C859B7 /* CoreService.framework */; };
 		779F2F1A235DF0AB00C859B7 /* CoreServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F2F19235DF0AB00C859B7 /* CoreServiceTests.swift */; };
 		779F2F1C235DF0AB00C859B7 /* CoreService.h in Headers */ = {isa = PBXBuildFile; fileRef = 779F2F0E235DF0AB00C859B7 /* CoreService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		316994CED97542670AEBCA0E /* Pods-CoreService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreService.release.xcconfig"; path = "Target Support Files/Pods-CoreService/Pods-CoreService.release.xcconfig"; sourceTree = "<group>"; };
+		6E471262972CC83EA41BC121 /* Pods-CoreService-CoreServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreService-CoreServiceTests.debug.xcconfig"; path = "Target Support Files/Pods-CoreService-CoreServiceTests/Pods-CoreService-CoreServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7350BFCCD6DE534FEABFA75E /* Pods_CoreService_CoreServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreService_CoreServiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7776AB5E235E264A008E5BF3 /* AddressService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressService.swift; sourceTree = "<group>"; };
+		7776AB5F235E264A008E5BF3 /* AddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		7776AB63235E268F008E5BF3 /* OAuth2Handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2Handler.swift; sourceTree = "<group>"; };
+		7776AB64235E268F008E5BF3 /* AlamofireLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireLogger.swift; sourceTree = "<group>"; };
+		7776AB65235E268F008E5BF3 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		7776AB66235E268F008E5BF3 /* ServiceBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceBase.swift; sourceTree = "<group>"; };
+		7776AB67235E268F008E5BF3 /* ArrayEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayEncoding.swift; sourceTree = "<group>"; };
+		7776AB68235E268F008E5BF3 /* ServiceBaseErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceBaseErrorModel.swift; sourceTree = "<group>"; };
+		7776AB69235E268F008E5BF3 /* OAuth2Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2Protocols.swift; sourceTree = "<group>"; };
 		779F2F0B235DF0AB00C859B7 /* CoreService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		779F2F0E235DF0AB00C859B7 /* CoreService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreService.h; sourceTree = "<group>"; };
 		779F2F0F235DF0AB00C859B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +54,9 @@
 		779F2F19235DF0AB00C859B7 /* CoreServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreServiceTests.swift; sourceTree = "<group>"; };
 		779F2F1B235DF0AB00C859B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		779F2F25235DF42F00C859B7 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		83B6B301EAAD17A2F458813E /* Pods_CoreService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE701785DEF361D23F591133 /* Pods-CoreService-CoreServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreService-CoreServiceTests.release.xcconfig"; path = "Target Support Files/Pods-CoreService-CoreServiceTests/Pods-CoreService-CoreServiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		D37FB4E6CE256B3D3AE9F44A /* Pods-CoreService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreService.debug.xcconfig"; path = "Target Support Files/Pods-CoreService/Pods-CoreService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC39CB512139A0B3B309E35 /* Pods_CoreService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +73,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				779F2F15235DF0AB00C859B7 /* CoreService.framework in Frameworks */,
+				36FCDF1D8FAC98604E64F100 /* Pods_CoreService_CoreServiceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7776AB5D235E2639008E5BF3 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				7776AB5F235E264A008E5BF3 /* AddressModel.swift */,
+				7776AB5E235E264A008E5BF3 /* AddressService.swift */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
+		7776AB62235E267D008E5BF3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7776AB64235E268F008E5BF3 /* AlamofireLogger.swift */,
+				7776AB67235E268F008E5BF3 /* ArrayEncoding.swift */,
+				7776AB63235E268F008E5BF3 /* OAuth2Handler.swift */,
+				7776AB69235E268F008E5BF3 /* OAuth2Protocols.swift */,
+				7776AB66235E268F008E5BF3 /* ServiceBase.swift */,
+				7776AB68235E268F008E5BF3 /* ServiceBaseErrorModel.swift */,
+				7776AB65235E268F008E5BF3 /* Token.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		779F2F01235DF0AB00C859B7 = {
 			isa = PBXGroup;
 			children = (
 				779F2F0D235DF0AB00C859B7 /* CoreService */,
 				779F2F18235DF0AB00C859B7 /* CoreServiceTests */,
 				779F2F0C235DF0AB00C859B7 /* Products */,
+				DE242BD6F91456D1E27E2F0C /* Pods */,
+				DFAC614244F3DEB43A957A1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +126,8 @@
 		779F2F0D235DF0AB00C859B7 /* CoreService */ = {
 			isa = PBXGroup;
 			children = (
+				7776AB62235E267D008E5BF3 /* Base */,
+				7776AB5D235E2639008E5BF3 /* Address */,
 				779F2F0E235DF0AB00C859B7 /* CoreService.h */,
 				779F2F0F235DF0AB00C859B7 /* Info.plist */,
 				779F2F25235DF42F00C859B7 /* Test.swift */,
@@ -87,6 +142,26 @@
 				779F2F1B235DF0AB00C859B7 /* Info.plist */,
 			);
 			path = CoreServiceTests;
+			sourceTree = "<group>";
+		};
+		DE242BD6F91456D1E27E2F0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D37FB4E6CE256B3D3AE9F44A /* Pods-CoreService.debug.xcconfig */,
+				316994CED97542670AEBCA0E /* Pods-CoreService.release.xcconfig */,
+				6E471262972CC83EA41BC121 /* Pods-CoreService-CoreServiceTests.debug.xcconfig */,
+				CE701785DEF361D23F591133 /* Pods-CoreService-CoreServiceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DFAC614244F3DEB43A957A1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B6B301EAAD17A2F458813E /* Pods_CoreService.framework */,
+				7350BFCCD6DE534FEABFA75E /* Pods_CoreService_CoreServiceTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 779F2F1F235DF0AB00C859B7 /* Build configuration list for PBXNativeTarget "CoreService" */;
 			buildPhases = (
+				864FFDA9F206BAFEA61E6C87 /* [CP] Check Pods Manifest.lock */,
 				779F2F06235DF0AB00C859B7 /* Headers */,
 				779F2F07235DF0AB00C859B7 /* Sources */,
 				779F2F08235DF0AB00C859B7 /* Frameworks */,
@@ -125,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 779F2F22235DF0AB00C859B7 /* Build configuration list for PBXNativeTarget "CoreServiceTests" */;
 			buildPhases = (
+				66DA93AA5580AECD5C8DB82E /* [CP] Check Pods Manifest.lock */,
 				779F2F10235DF0AB00C859B7 /* Sources */,
 				779F2F11235DF0AB00C859B7 /* Frameworks */,
 				779F2F12235DF0AB00C859B7 /* Resources */,
+				F046FF8F13EE495C1185CED4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,12 +271,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66DA93AA5580AECD5C8DB82E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreService-CoreServiceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		864FFDA9F206BAFEA61E6C87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F046FF8F13EE495C1185CED4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreService-CoreServiceTests/Pods-CoreService-CoreServiceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreService-CoreServiceTests/Pods-CoreService-CoreServiceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoreService-CoreServiceTests/Pods-CoreService-CoreServiceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		779F2F07235DF0AB00C859B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7776AB70235E268F008E5BF3 /* OAuth2Protocols.swift in Sources */,
+				7776AB60235E264A008E5BF3 /* AddressService.swift in Sources */,
+				7776AB6D235E268F008E5BF3 /* ServiceBase.swift in Sources */,
 				779F2F26235DF42F00C859B7 /* Test.swift in Sources */,
+				7776AB61235E264A008E5BF3 /* AddressModel.swift in Sources */,
+				7776AB6E235E268F008E5BF3 /* ArrayEncoding.swift in Sources */,
+				7776AB6F235E268F008E5BF3 /* ServiceBaseErrorModel.swift in Sources */,
+				7776AB6C235E268F008E5BF3 /* Token.swift in Sources */,
+				7776AB6A235E268F008E5BF3 /* OAuth2Handler.swift in Sources */,
+				7776AB6B235E268F008E5BF3 /* AlamofireLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +496,7 @@
 		};
 		779F2F20235DF0AB00C859B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37FB4E6CE256B3D3AE9F44A /* Pods-CoreService.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -372,6 +524,7 @@
 		};
 		779F2F21235DF0AB00C859B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316994CED97542670AEBCA0E /* Pods-CoreService.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -398,6 +551,7 @@
 		};
 		779F2F23235DF0AB00C859B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E471262972CC83EA41BC121 /* Pods-CoreService-CoreServiceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -417,6 +571,7 @@
 		};
 		779F2F24235DF0AB00C859B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE701785DEF361D23F591133 /* Pods-CoreService-CoreServiceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

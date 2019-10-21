@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5A3120A1-359D-464C-879F-38E787C87F74"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56272FEB-BF80-4693-8F84-02661CA2AA4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreServiceTests/CoreServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C66984DE-AD01-4D38-93C7-E80567712F65"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreServiceTests/CoreServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04F83BA3-1844-4963-A298-80CEF1A9A2A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreService/Base/ServiceBase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "362"
+            endingLineNumber = "362"
+            landmarkName = "connectObject(route:parameters:method:encoding:headers:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "04F83BA3-1844-4963-A298-80CEF1A9A2A0 - 63d87b42a25b9707"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;A&gt;) -&gt; () in CoreService.ServiceBase.(connectObject in _896D0944A0CDA2A18ACD51A028CCAEE0)(route: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, method: Alamofire.HTTPMethod, encoding: Alamofire.ParameterEncoding, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, completion: (Swift.Optional&lt;A&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;CoreService.ServiceBaseErrorModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CoreService"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rubensmachion/Documents/bitbucket/Libraries/CoreService/CoreService/Base/ServiceBase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "362"
+                  endingLineNumber = "362"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "04F83BA3-1844-4963-A298-80CEF1A9A2A0 - 6903b64749a204db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 (Alamofire.DataResponse&lt;A&gt;) -&gt; () in CoreService.ServiceBase.(connectObject in _896D0944A0CDA2A18ACD51A028CCAEE0)(route: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, method: Alamofire.HTTPMethod, encoding: Alamofire.ParameterEncoding, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, completion: (Swift.Optional&lt;A&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;CoreService.ServiceBaseErrorModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CoreService"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rubensmachion/Documents/bitbucket/Libraries/CoreService/CoreService/Base/ServiceBase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "364"
+                  endingLineNumber = "364"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CF16CF0-CF9E-4D15-97E9-94910DB9B07A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreService/Base/ServiceBase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "347"
+            endingLineNumber = "347"
+            landmarkName = "connectObject(route:parameters:method:encoding:headers:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2CF16CF0-CF9E-4D15-97E9-94910DB9B07A - 2a6166e417496c65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreService.ServiceBase.(connectObject in _896D0944A0CDA2A18ACD51A028CCAEE0)(route: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, method: Alamofire.HTTPMethod, encoding: Alamofire.ParameterEncoding, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, completion: (Swift.Optional&lt;A&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;CoreService.ServiceBaseErrorModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CoreService"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rubensmachion/Documents/bitbucket/Libraries/CoreService/CoreService/Base/ServiceBase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "347"
+                  endingLineNumber = "347"
+                  offsetFromSymbolStart = "491">
+               </Location>
+               <Location
+                  uuid = "2CF16CF0-CF9E-4D15-97E9-94910DB9B07A - ddc93ddc9f6f011f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CoreService.ServiceBase.(connectObject in _896D0944A0CDA2A18ACD51A028CCAEE0)(route: Swift.Optional&lt;Swift.String&gt;, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, method: Alamofire.HTTPMethod, encoding: Alamofire.ParameterEncoding, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, completion: (Swift.Optional&lt;A&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;CoreService.ServiceBaseErrorModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CoreService"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rubensmachion/Documents/bitbucket/Libraries/CoreService/CoreService/Base/ServiceBase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "349"
+                  endingLineNumber = "349"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F363E2A-5534-41B6-840E-59A26D2C67D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreService/Address/AddressService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getSearchZipCode(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name          = "CoreService"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.summary       = "Pequena descrição asasaosoas"
   spec.swift_version = "4.0"
 
@@ -135,5 +135,9 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+
+  spec.xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  spec.dependency "AlamofireObjectMapper", "~> 5.0"
+  spec.dependency "Alamofire", "~> 4.5"
 
 end

@@ -1,0 +1,6 @@
+framework module Pods_CoreService_CoreServiceTests {
+  umbrella header "Pods-CoreService-CoreServiceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
